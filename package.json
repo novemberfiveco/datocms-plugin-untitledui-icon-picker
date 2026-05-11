@@ -21,15 +21,16 @@
   ],
   "type": "module",
   "files": [
-    "dist",
-    "docs"
+    "dist"
   ],
   "datoCmsPlugin": {
     "title": "Untitled UI icon picker",
     "entryPoint": "dist/index.html",
     "permissions": [],
     "pluginType": "field_editor",
-    "fieldTypes": ["string"]
+    "fieldTypes": [
+      "string"
+    ]
   },
   "scripts": {
     "dev": "vite",

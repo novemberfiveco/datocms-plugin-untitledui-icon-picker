@@ -61,6 +61,7 @@ export const IconPickerModal = ({ ctx }: Props) => {
           <div className="icon-picker__grid">
             {visible.map((name) => {
               const Cmp = registry[name];
+              if (!Cmp) return null;
               const isSelected = name === initialValue;
               return (
                 <button
@@ -73,6 +74,7 @@ export const IconPickerModal = ({ ctx }: Props) => {
                   }
                   onClick={() => ctx.resolve(name)}
                   title={name}
+                  aria-label={name}
                 >
                   <Cmp size={24} />
                   <span>{name}</span>

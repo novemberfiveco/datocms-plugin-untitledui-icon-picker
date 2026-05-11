@@ -21,7 +21,8 @@
   ],
   "type": "module",
   "files": [
-    "dist"
+    "dist",
+    "docs"
   ],
   "datoCmsPlugin": {
     "title": "Untitled UI icon picker",
@@ -30,7 +31,8 @@
     "pluginType": "field_editor",
     "fieldTypes": [
       "string"
-    ]
+    ],
+    "coverImage": "docs/cover.png"
   },
   "scripts": {
     "dev": "vite",

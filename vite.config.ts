@@ -13,4 +13,7 @@ export default defineConfig({
   optimizeDeps: {
     include: ['react', 'react-dom', 'react/jsx-runtime', 'datocms-react-ui'],
   },
+  build: {
+    chunkSizeWarningLimit: 1000,
+  },
 });

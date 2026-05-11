@@ -1,0 +1,67 @@
+{
+  "name": "datocms-plugin-untitledui-icon-picker",
+  "version": "0.0.1",
+  "description": "DatoCMS field editor that lets editors pick an icon from the Untitled UI icon set and stores the icon name as a string.",
+  "homepage": "https://github.com/novemberfiveco/datocms-plugin-untitledui-icon-picker#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novemberfiveco/datocms-plugin-untitledui-icon-picker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/novemberfiveco/datocms-plugin-untitledui-icon-picker/issues"
+  },
+  "license": "MIT",
+  "author": "November Five",
+  "keywords": [
+    "datocms",
+    "datocms-plugin",
+    "field-editor",
+    "icon-picker",
+    "untitled-ui"
+  ],
+  "type": "module",
+  "files": [
+    "dist",
+    "docs"
+  ],
+  "datoCmsPlugin": {
+    "title": "Untitled UI icon picker",
+    "entryPoint": "dist/index.html",
+    "permissions": [],
+    "pluginType": "field_editor",
+    "fieldTypes": ["string"]
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "tsc --noEmit",
+    "release": "release-it"
+  },
+  "dependencies": {
+    "@untitledui/icons": "0.0.22",
+    "datocms-plugin-sdk": "2.1.1",
+    "datocms-react-ui": "2.1.4",
+    "react": "19.2.5",
+    "react-dom": "19.2.5"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "9.0.4",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.2.0",
+    "eslint": "9.39.2",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "globals": "17.6.0",
+    "release-it": "17.10.0",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.59.2",
+    "vite": "7.3.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

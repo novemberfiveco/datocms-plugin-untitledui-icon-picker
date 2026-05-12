@@ -43,6 +43,12 @@ export const Icon = ({ name, size = 24 }: { name: string; size?: number }) => {
 
 ## Contributing
 
+- **Reporting a bug**: [Open an issue](https://github.com/novemberfiveco/datocms-plugin-untitledui-icon-picker/issues/new) explaining your setup and the bug you're encountering.
+- **Suggesting an improvement**: [Open an issue](https://github.com/novemberfiveco/datocms-plugin-untitledui-icon-picker/issues/new) explaining your improvement or feature so we can discuss it.
+- **Submitting code changes**: For small fixes, [open a pull request](https://github.com/novemberfiveco/datocms-plugin-untitledui-icon-picker/pulls) with a description of your changes. For large changes, please first open an issue so we can discuss the approach.
+
+## Development
+
 ```bash
 nvm use
 npm install

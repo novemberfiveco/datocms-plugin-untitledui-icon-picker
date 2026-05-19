@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.0.0](https://github.com/novemberfiveco/datocms-plugin-untitledui-icon-picker/compare/v0.1.0...v1.0.0) (2026-05-19)
+
 ## [0.1.0](https://github.com/novemberfiveco/datocms-plugin-untitledui-icon-picker/compare/v0.0.7...v0.1.0) (2026-05-18)
 
 ## [0.0.7](https://github.com/novemberfiveco/datocms-plugin-untitledui-icon-picker/compare/v0.0.6...v0.0.7) (2026-05-13)

@@ -1,6 +1,6 @@
 {
   "name": "datocms-plugin-untitledui-icon-picker",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "DatoCMS field editor that lets editors pick an icon from the Untitled UI icon set and stores the icon name as a string.",
   "homepage": "https://github.com/novemberfiveco/datocms-plugin-untitledui-icon-picker#readme",
   "repository": {

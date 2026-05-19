@@ -17,6 +17,11 @@
   min-width: 200px;
 }
 
+.icon-picker__number-input {
+  flex: 0 0 auto;
+  min-width: 180px;
+}
+
 .icon-picker__current {
   display: inline-flex;
   align-items: center;
